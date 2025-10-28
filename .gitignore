@@ -1,0 +1,13 @@
+auto_sync.sh
+stop_auto_sync.sh
+
+# Ignore all compiled executables (files without extensions)
+# This will only commit .cpp files, not the compiled binaries
+**/[!.]*
+!**/*.cpp
+!**/*.h
+!**/*.hpp
+!**/*.c
+!**/*.cc
+!**/*.cxx
+!**/*/
